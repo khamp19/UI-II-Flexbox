@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	margin-left: 5px;
+	width: 90%;
+	margin: auto;
+}
+
+nav {
+	position: fixed;
+	width: 90%;
+	background-color: white;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-list {
+	display: flex;
+	align-items: baseline;
+}
+
+.nav-item{
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo {
+	justify-content: flex-end;
+	size: 75%;
+}
+
+header {
+	width: 100%;
+	padding: 50px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.head-item {
+	width: 50%;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding: 20px;
+	justify-content: flex-end;
+	align-content: flex-end;
+}
+
+.header-text {
+	line-height: 1.5;
+	font-size: 75px;
+}
+
+button {
+	text-transform: capitalize;
+}
+
+.header-img {
+	height: 500px;
+	width: auto;
+	max-width: 50%;
+}
+
+.main-container {
+	border-top: 1px solid black;
+}
+
+.main {
+	padding: 20px 0px;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tp {
+	width: 45%;
+}
+
+.middle-image {
+	width: 90%;
+	margin: auto;
+}
+
+.bottom {
+	justify-content: space-between;
+	display: flex;
+}
+
+.btm {
+	width: 30%;
+}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+
+footer{
+	margin: 50px;
+	text-align: center;
+}
